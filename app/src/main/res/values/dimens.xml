@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="profile_image_width">60dp</dimen>
+    <dimen name="profile_image_height">60dp</dimen>
+
+    <dimen name="logo_image_height">150dp</dimen>
+    <dimen name="logo_image_width">150dp</dimen>
+
+    <dimen name="text_size_xlarge">40sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_xsmall">8sp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">@dimen/text_size_small
+    </dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">
+        @dimen/text_size_small
+    </dimen>
+    <dimen name="album_card_title_padding">5dp</dimen>
+
+    <dimen name="songs_count_padding_bottom">2dp</dimen>
+    <dimen name="album_card_padding">5dp</dimen>
+    <dimen name="card_view_image_width">50dp</dimen>
+    <dimen name="fab_margin">30dp</dimen>
+
+    <dimen name="album_title">22sp</dimen>
+    <dimen name="album_subtitle">14sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="list_item_padding">10dp</dimen>
+    <dimen name="screenbox_image_width">75dp</dimen>
+    <dimen name="height_of_app_bar">8dp</dimen>
+    <dimen name="recyclerview_margin_bottom_toolbar_tab">120dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="icon_width">50dp</dimen>
+    <dimen name="default_padding_16dp">16dp</dimen>
+    <dimen name="default_padding_32dp">32dp</dimen>
+    <dimen name="default_margin_1x">8dp</dimen>
+    <dimen name="default_margin_2x">16dp</dimen>
+
+
+
+    <dimen name="md_text_size_button">14sp</dimen>
+    <dimen name="md_margin_small">8dp</dimen>
+
+
+    <dimen name="md_text_size_h1">96sp</dimen>
+    <dimen name="md_text_size_h2">60sp</dimen>
+    <dimen name="md_text_size_h3">48sp</dimen>
+    <dimen name="md_text_size_h4">34sp</dimen>
+    <dimen name="md_text_size_h5">24sp</dimen>
+    <dimen name="md_text_size_h6">20sp</dimen>
+    <dimen name="md_text_size_subtitle1">16sp</dimen>
+    <dimen name="md_text_size_subtitle2">14sp</dimen>
+    <dimen name="md_text_size_body1">16sp</dimen>
+    <dimen name="md_text_size_body2">14sp</dimen>
+    <dimen name="md_text_size_caption">12sp</dimen>
+    <dimen name="md_text_size_overline">10sp</dimen>
+
+    <dimen name="md_card_view_padding_small">8dp</dimen>
+    <dimen name="md_margin_large">32dp</dimen>
+    <dimen name="md_margin_medium">16dp</dimen>
+    <dimen name="home_logo_width">250dp</dimen>
+    <dimen name="home_logo_height">75dp</dimen>
+
+</resources>

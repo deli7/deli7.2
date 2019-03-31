@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">دليفامي</string>
+    <string name="ui_button_new_order">طلب جديد</string>
+    <string name="ui_label_add_new_order">طلب جديد</string>
+    <string name="title_current_orders">الطلبات الحالية</string>
+    <string name="ui_activity_title_home_page">الصفحة الرئيسية</string>
+    <string name="ui_activity_title_select_business">اختيار النشاط</string>
+    <string name="ui_activity_title_select_store">اختيار المتجر</string>
+    <string name="ui_label_support">الدعم الفني</string>
+    <string name="subtitle_view_update_personal_profile">تعديل الملف الشخصي وعرض الطلبات السابقة</string>
+    <string name="ui_label_view_current_orders">عرض الطلبات الحالية</string>
+    <string name="subtitle_get_support">الحصول على المساعدة والدعم</string>
+    <string name="subtitle_add_new_order">اضافة طلب توصيل جديد</string>
+    <string name="ui_label_select_user_type">اختيار نوع المستخدم</string>
+    <string name="ui_label_select_model">اختيار الموديل</string>
+    <string name="ui_button_accept_offer">قبول العرض</string>
+    <string name="ui_button_cancel_order">الغاء الطلب</string>
+    <string name="ui_message_error_invalid_configuration">خطأ فى الإعدادات</string>
+    <string name="ui_label_estimated_distance">المسافة التقديرية</string>
+    <string name="estimated_cost">التكلفة التقديرية</string>
+    <string name="ui_label_estimated_time">الوقت التقديري</string>
+    <string name="ui_button_finish_order">أنهاء الطلب</string>
+    <string name="intro_page1_text">الطريقة الأسهل والأسرع لإيصال الطلبات</string>
+    <string name="ui_label_order_number">رقم الطلب</string>
+    <string name="ui_label_order_status">حالة الطلب</string>
+    <string name="order_delivered">تم التوصيل</string>
+    <string name="order_accepted">قيد التنفيذ</string>
+    <string name="ui_label_order_instructions">تعليمات التوصيل</string>
+    <string name="no">لا</string>
+    <string name="ui_button_select_destination">إختيار نقطة التسليم</string>
+    <string name="my_places">سجل الأماكن</string>
+    <string name="min">ق</string>
+    <string name="distance_min">%1$.2f دقيقة</string>
+    <string name="km">كم</string>
+    <string name="distance_km">%1$.2f كم</string>
+    <string name="ui_button_edit_place">تعديل المكان</string>
+    <string name="ui_label_destination_address">عنوان التوصيل</string>
+    <string name="ui_label_client_name">اسم العميل</string>
+    <string name="ui_label_client_profile">الملف الشخصي</string>
+    <string name="ui_button_add_order">إضافة طلب</string>
+    <string name="ui_button_skip">تخطي</string>
+    <string name="yes">نعم</string>
+    <string name="write_about_your_delivery_order">سجل تعليقك عن طلب التوصيل</string>
+    <string name="ui_label_vehicle_model">نوع المركبة</string>
+    <string name="ui_label_vehicle_number">رقم اللوحة</string>
+    <string name="ui_label_vehicle_categories">أنواع المركبات</string>
+    <string name="ui_button_update_information">تعديل البيانات</string>
+    <string name="ui_button_submit_review">ارسال</string>
+    <string name="ui_button_submit_message">ارسال</string>
+    <string name="ui_label_fullname">الأسم الكامل</string>
+    <string name="ui_label_email_address">البريد الإلكتروني</string>
+    <string name="ui_button_create_account">حساب جديد</string>
+    <string name="ui_button_create_user_account">انشاء حساب جديد</string>
+    <string name="ui_button_select_vehicle">اختيار مركبة</string>
+    <string name="ui_button_save_place">حفظ المكان</string>
+    <string name="personal_profile">الملف الشخصي</string>
+    <string name="ui_dialog_are_you_sure_accept_offer">موافق على قبول العرض؟</string>
+    <string name="ui_dialog_are_you_sure_delete_order">سيتم الغاء الطلب، هل أنت متأكد؟</string>
+    <string name="ui_label_current_orders">الطلبات الحالية</string>
+    <string name="error">خطأ</string>
+    <string name="ui_label_pick_up_address">عنوان الاستلام</string>
+    <string name="ui_message_error_internet_not_connected">خطأ: لا يوجد اتصال بالأنترنت</string>
+    <string name="ui_label_password">كلمة السر</string>
+    <string name="ui_label_phone_number">رقم التليفون</string>
+    <string name="string_login">دخول</string>
+    <string name="ui_label_dont_have_account">لا تمتلك حساب؟</string>
+    <string name="ui_button_cancel_request">الغاء الطلب</string>
+    <string name="ui_label_fitness_certificate">صورة بطاقة الرقم القومي</string>
+    <string name="ui_label_commercial_insurance">الصورة الشخصيه</string>
+    <string name="ui_label_vehicle_permit">صورة المركبة (مع إظهار لوحة المرور)</string>
+    <string name="ui_label_driving_license">رخصة السيارة</string>
+    <string name="ui_button_select_file">اختيار ملف</string>
+    <string name="ui_button_submit_information">ارسال</string>
+    <string name="ui_button_login_with_another_account">الدخول بحساب أخر</string>
+    <string name="ui_message_error_user_type_driver_suspended">حساب متوقف، برجاء التواصل مع الإدارة</string>
+    <string name="ui_message_error_user_type_user_suspended">حساب متوقف، برجاء التواصل مع الإدارة</string>
+    <string name="ui_message_new_order_added">تم إضافة الطلب</string>
+    <string name="ui_message_error_adding_new_order">خطأ: حدث خطأ اثناء اضافة الطلب</string>
+    <string name="ui_button_delete_place">حذف</string>
+    <string name="ui_label_delivery_offer_value">قيمة العرض</string>
+    <string name="ui_label_delivery_offer_date">وقت العرض</string>
+    <string name="ui_label_delivery_offer_comment">التعليق</string>
+    <string name="ui_label_destination">جهة الإستلام</string>
+    <string name="ui_button_terms_and_conditions">شروط الإستخدام</string>
+    <string name="what_are_you_looking_for">أبحث عن…</string>
+    <string name="ui_pick_from_map_or_search">اختر من الخريطة أو ابحث</string>
+
+    <string name="ui_button_save_location_to_my_places">حفظ الى الأماكن المسجلة</string>
+
+
+    <string name="order_picked_up">قام المندوب بالإستلام</string>
+
+    <string name="ui_button_select_place">إختيار المكان</string>
+
+
+    <string name="ui_label_delivery_man">مندوب توصيل</string>
+    <string name="ui_label_list_of_offers">قائمة العروض</string>
+    <string name="ok">موافق</string>
+    <string name="first_message_header">مبروك، تم اختيار عرض التوصيل الخاص بك</string>
+
+    <string name="chat_with_support">التحدث مع الدعم</string>
+    <string name="chatting_with">التحدث مع</string>
+
+    <string name="client">عميل</string>
+
+    <string name="ui_button_chat_with">التحدث مع المندوب</string>
+    <string name="ui_button_call_delivery_man">الإتصال بالمندوب</string>
+    <string name="ui_button_make_offer">ارسال عرض</string>
+    <string name="ui_button_add_offer">تسجيل عرض</string>
+
+    <string name="ui_dialog_select_place_as_destination">إختيار الموقع كمكان لتسليم الطلب؟</string>
+    <string name="ui_dialog_are_you_sure_add_new_offer">سيتم إضافة عرض جديد لطلب التوصيل، هل أنت متأكد؟</string>
+
+    <string name="new_offer_added">تم إضافة العرض</string>
+
+
+    <string name="ui_message_error_missing_destination_point">خطأ: لم يتم اختيار مكان التسليم</string>
+    <string name="ui_dialog_title_error">خطأ</string>
+    <string name="ui_notification_you_won_order">تم قبول العرض الخاص بك</string>
+    <string name="ui_notification_your_order_picked">تم استلام الطلب من قبل المندوب</string>
+    <string name="ui_button_edit_offer">تعديل العرض</string>
+    <string name="ui_button_delete_offer">حذف العرض</string>
+    <string name="ui_button_view_order">تفاصيل الطلب</string>
+    <string name="ui_button_edit_order">تعديل الطلب</string>
+
+    <string name="ui_label_no_places">لا توجد أماكن مسجلة</string>
+
+    <string name="ui_dialog_aready_added_offer">لديك بالفعل عرض مقدم لهذا الطلب</string>
+    <string name="ui_dialog_order_already_awarded">الطلب قيد التنفيذ، لا يمكن إضافة عروض جديدة</string>
+
+    <string name="ui_label_no_offers_available">لا توجد عروض توصيل متاحة</string>
+    <string name="ui_label_no_stores_available">لا توجد متاجر متاحة</string>
+    <string name="ui_label_no_orders_available">لا توجد طلبات توصيل متاحة</string>
+    <string name="ui_label_activity_title_order_details">تفاصيل الطلب</string>
+    <string name="no_comment">لا يوجد تعليق</string>
+    <string name="ui_label_you_have_in_progress_orders">لديك طلبات تحت التنفيذ</string>
+    <string name="ui_button_chat_with_client">التحدث مع العميل</string>
+    <string name="ui_notification_new_order_added">تم إضافة طلب توصيل جديد</string>
+    <string name="ui_notification_you_added_new_order">تم إضافة طلب توصيل جديد رقم</string>
+    <string name="ui_notification_you_accepted_offer">لقد قمت  بقبول عرض توصيل</string>
+    <string name="ui_notification_your_order_delivered">تم تنفيذ طلب التوصيل</string>
+    <string name="ui_dialog_you_already_have_other_order">لديك طلبان قيد التنفيذ، لا يمكن إضافة طلبات جديدة</string>
+    <string name="ui_button_pickup_order">إستلام الطلب</string>
+    <string name="ui_button_deliver_order">تسليم الطلب</string>
+    <string name="ui_dialog_are_you_sure_pick_up_order">هل أنت متأكد من استلام الطلب؟</string>
+    <string name="ui_dialog_are_you_sure_deliver_order">هل أنت متأكد من تسليم الطلب؟</string>
+    <string name="ui_button_navigate_to_pickup">الذهاب لنقطة التسلم</string>
+    <string name="ui_button_navigate_to_destinatiom">الذهاب لنقطة التسليم</string>
+    <string name="ui_dialog_are_you_sure_navigate_to_pickup">سيتم الإنتقال الى خرائط جوجل للمساعده فى الوصول الى نقطة التسلم، موافق؟</string>
+    <string name="ui_dialog_are_you_sure_navigate_to_destination">سيتم الإنتقال الى خرائط جوجل للمساعده فى الوصول الى نقطة التسليم، موافق؟</string>
+    <string name="ui_label_new_orders">الطلبات الجديدة</string>
+    <string name="ui_label_view_my_current_orders">الطلبات قيد التنفيذ</string>
+    <string name="ui_message_error_google_maps_not_installed">خطأ: خرائط جوجل غير مثبتة</string>
+    <string name="ui_activity_title_order_feedback">أرسل رأيك</string>
+    <string name="ui_message_new_offer_updated">تم تعديل العرض</string>
+    <string name="ui_message_new_order_updated">تم تعديل طلب التوصيل</string>
+    <string name="ui_dialog_insufficient_credit">الرصيد غير كافي</string>
+    <string name="ui_message_credit_added">تم إضافة رصيد</string>
+    <string name="points">نقطة</string>
+    <string name="ui_label_current_credit">الرصيد الحالي</string>
+    <string name="ui_label_add_new_offer">إضافة عرض جديد</string>
+    <string name="driver_verification">تحميل المستندات</string>
+    <string name="logout">خروج</string>
+    <string name="ui_dialog_are_you_sure_exit">سيتم الخروج من البرنامج، هل أنت متأكد؟</string>
+    <string name="ui_label_previous_orders">طلباتي سابقة</string>
+    <string name="ui_label_in_progress_orders">طلبات قيد التنفيذ</string>
+    <string name="order_completed">تم الإنتهاء</string>
+    <string name="ui_button_use_current_location">استخدم الموقع الحالي</string>
+    <string name="ui_message_error_no_internet_connectivity">خطأ، لا يوجد إتصال بالإنترنت</string>
+    <string name="ui_message_error_internet_connectivity_back">تم الإتصال بالإنترنت</string>
+    <string name="required_time">مدة التوصيل المطلوب</string>
+    <string name="ui_message_error_insufficient_expected_time">خطأ: مدة التوصيل أقل من الزمن المتوقع لتوصيل الطلب</string>
+    <string name="hour">ساعة</string>
+    <string name="time_hour">%1$d ساعة</string>
+    <string name="ui_string_you_have">لديك</string>
+    <string name="ui_string_delivered_orders_awating_feedback">طلبات تم تسليمها وبحاجة الى تقييم وأنهاء</string>
+    <string name="ui_dialog_title_orders_status">حالة الطلبات</string>
+    <string name="ui_activity_title_send_message_to_support">التواصل مع الدعم</string>
+    <string name="ui_dialog_confirm_send_support_message">سيتم ارسال الرسالة الى الدعم الفني، هل أنت متأكد؟</string>
+    <string name="ui_label_no_support_messages_available">لا توجد رسائل حالية</string>
+    <string name="ui_activity_title_support_messages">الرسائل</string>
+    <string name="message">الرسالة</string>
+    <string name="message_type">نوع الرسالة</string>
+    <string name="ui_notification_message_sent_to_support">تم ارسال الرسالة الى فريق الدعم</string>
+    <string name="ui_activity_title_message_details">تفاصيل الرسالة</string>
+    <string name="ui_notification_order_completed">تم إنهاء طلب التوصيل بنجاح</string>
+    <string name="ui_notification_order_cancelled">تم ألغاء طلب التوصيل</string>
+    <string name="ui_label_delivery_to_store_distance">المسافة الى المتجر</string>
+    <string name="ui_label_min_cost">الحد الأدني للتكلفة</string>
+    <string name="ui_button_save_bill">حفظ الفاتورة</string>
+    <string name="ui_label_add_order_receipt">إضافة فاتورة الطلب</string>
+    <string name="ui_label_bill_value">قيمة الفاتورة</string>
+    <string name="ui_message_error_offer_outside_range">قيمة العرض خارج النطاق المسموح به</string>
+    <string name="min_range">الحد الأدني</string>
+    <string name="max_range">الحد الأقصى</string>
+    <string name="ui_message_error_location_detection">خطأ فى تحديد الموقع</string>
+    <string name="ui_message_new_offer_added">تم إضافة العرض</string>
+    <string name="ui_label_order_receipt_cost">تكلفة الفاتورة</string>
+    <string name="ui_button_view_receipt">عرض الفاتورة</string>
+    <string name="ui_label_order_delivery_cost">تكلفة التوصيل</string>
+    <string name="ui_notification_new_offer_added">تم إضافة عرض جديد</string>
+    <string name="ui_label_receive_new_orders_notifications">تنبيهات الطلبات الجديدة</string>
+    <string name="ui_label_edit_order">تعديل طلب توصيل</string>
+    <string name="ui_message_error_no_bill_loaded">خطأ: لم يتم إضافة الفاتورة</string>
+    <string name="ui_message_error_invalid_bill_value">خطأ: قيمة غير صحيحة للفاتورة</string>
+    <string name="ui_label_clients_feedback">تعليقات العملاء</string>
+    <string name="ui_label_number_of_trips">عدد الرحلات</string>
+    <string name="ui_label_total_earnings">إجمالي رسوم التوصيل</string>
+    <string name="ui_button_logout">الخروج</string>
+    <string name="ui_label_user_settings">إعدادات المستخدم</string>
+    <string name="ui_button_save_user_information">حفظ بيانات المستخدم</string>
+    <string name="ui_label_edit_photo">تعديل الصورة</string>
+    <string name="ui_label_user_name">إسم المستخدم</string>
+    <string name="ui_button_deposit_credit">شحن رصيد</string>
+    <string name="ui_button_withdraw_credit">طلب سحب رصيد</string>
+    <string name="ui_activity_title_edit_user_information">تعديل بيانات المستخدم</string>
+    <string name="ui_button_policy">سياسة الخصوصية</string>
+    <string name="ui_button_rate_app">تقييم التطبيق</string>
+    <string name="ui_button_ask_support">ارسل رسالة الى الدعم الفني</string>
+    <string name="ui_terms_of_use">شروط الإستخدام</string>
+    <string name="ui_label_order_total_cost">إجمالي الطلب</string>
+    <string name="ui_label_select_notification_ringtone">اختر نغمة الاشعار</string>
+    <string name="ui_button_select">اختيار</string>
+    <string name="ui_message_error_invalid_offer_value">خطأ: قيمة العرض غير صحيحة</string>
+    <string name="ui_label_you_dont_have_orders">لا توجد طلبات توصيل حالية</string>
+    <string name="ui_message_error_invalid_delivery_instructions">خطأ: تعليمات التوصيل غير صحيحة</string>
+    <string name="new_order_from">طلب توصيل من</string>
+    <string name="ui_label_distance_to_client">المسافة الى العميل</string>
+    <string name="ui_label_name">الأسم</string>
+    <string name="ui_label_email">البريد الإلكتروني</string>
+    <string name="ui_button_next">التالي</string>
+    <string name="ui_label_camera">صورة</string>
+    <string name="ui_label_gellery">تصفح الصور</string>
+    <string name="ui_button_iam_receiver">أنا عميل</string>
+    <string name="ui_button_iam_deliveryman">أنا مندوب توصيل</string>
+    <string name="ui_activity_title_register">تسجيل البيانات</string>
+    <string name="ui_message_error_invalid_email_address">خطأ: البريد الإفكتروني غير صحيح</string>
+    <string name="ui_message_error_invalid_user_name">خطأ: اسم المستخدم غير صحيح</string>
+    <string name="cancel">ألغاء</string>
+    <string name="ui_message_error_user_type_not_selected">خطأ: لم يتم إختيار نوع المستخدم</string>
+    <string name="ui_message_error_account_no_longer_valid">خطأ فى الحساب، برجاء مخاطبة الإدارة</string>
+    <string name="ui_notification_another_offer_accepted">تم إختيار عرض أخر لطلب التوصيل</string>
+    <string name="ui_label_another_offer_is_active">لديك عرض أخر لطلب توصيل</string>
+    <string name="base_fare">التعريفة الأساسية</string>
+    <string name="fare_per_min">التعريفة لكل دقيقة</string>
+    <string name="fare_per_km">التعريفة لكل كم</string>
+    <string name="ui_activity_title_select_vehicle">إختيار المركبة</string>
+    <string name="ui_dialog_are_you_sure_submit_documents">سيتم أرسال المستندات للإدارة للمراجعة، هل أنت متأكد؟</string>
+    <string name="ui_notifcation_order_has_no_activity">تم إلغاء الطلب</string>
+    <string name="ui_notification_your_offer_is_expired">لقد تم اختيار عرض أخر لتنفيذ الطلب، عرضك الأن منتهي الصلاحية</string>
+    <string name="ui_notification_order_not_delivered">لم يتم توصيل الطلب بعد</string>
+    <string name="ui_label_promo_code">كود الخصم</string>
+    <string name="ui_notifications_invalid_promo_code">كود خصم غير صحيح</string>
+    <string name="ui_label_after_discount">بدلاً من</string>
+    <string name="ui_label_mobile_number">رقم التليفون</string>
+    <string name="ui_label_mobile">موبايل</string>
+    <string name="ui_label_please_enter_your_phone_number">أدخل رقم التليفون</string>
+    <string name="ui_label_change_number">تغيير الرقم</string>
+    <string name="call">الإتصال ب</string>
+    <string name="bt_send">أرسل</string>
+    <string name="ui_label_credit">الرصيد</string>
+    <string name="ui_label_add_credit_instructions">تعليمات إضافة الرصيد</string>
+    <string name="ui_label_withdraw_instructions">تعليمات سحب الرصيد</string>
+    <string name="ui_button_submit_request">أرسال الطلب</string>
+    <string name="ui_activity_title_add_credit">إضافة رصيد</string>
+    <string name="ui_activity_title_withdraw_credit">سحب رصيد</string>
+    <string name="ui_dialog_are_you_sure_add_credit_request">متأكد من أضافة طلب أضافة رصيد؟</string>
+    <string name="ui_dialog_are_you_sure_withdraw_credit_request">متأكد من طلب سحب الرصيد؟</string>
+    <string name="ui_notification_withdraw_credit_request_added">تم اضافة طلب سحب رصيد</string>
+    <string name="ui_notification_add_credit_request_added">تم إرسال طلب اضافة رصيد</string>
+    <string name="ui_label_you_want_to_add_promo_code">هل تريد إضافة كود خصم؟</string>
+    <string name="ui_notification_your_offer_accepted">تم قبول العرض الخاص بك</string>
+    <string name="ui_notification_you_picked_up_the_order">لقد قمت بإستلام الطلب</string>
+    <string name="ui_notification_you_delivered_order">لقد قمت بتسليم الطلب</string>
+    <string name="delivery_type">نوع التوصيل</string>
+    <string name="price">الثمن</string>
+    <string name="open">مفتوح</string>
+    <string name="closed">مغلق</string>
+    <string name="bicy_desc">للطلبات القريبه صغيرة الحجم, خفيفة الوزن</string>
+    <string name="scooter_desc">أسرع توصيل للطلبات صغيرة الحجم</string>
+    <string name="car_desc">للطلبات القيمة الكبيرة في الحجم و الابعد في المسافه</string>
+    <string name="search_for_all_stores">بحث لجميع المتاجر</string>
+
+
+    <string name="start_trip_restaurant">عزيزي العميل انا في طريقي للمطعم, من فضلك اتصل %1$s لتحضير الطلب لحين وصولي لتوفير المزيد من الوقت ;)\n
+        المندوب %2$s</string>
+
+    <string name="start_trip_restaurant_no_phone">عزيزي العميل, انا في طريقي للمطعم, مُقدر انتظارك \n المندوب %1$s</string>
+
+    <string name="start_trip_other">عزيزي العميل, انا في طريقي لمكان الإستلام, مُقدر انتظارك \n المندوب %1$s</string>
+
+    <string name="invoice_received">لقدوصلت وتم دفع مبلغ الفاتوره و هي كالتالي: \n مبلغ الفاتورة : %1$s %2$s \n صورة الفاتورة في الاسفل.</string>
+    <string name="Invoice_received">استلمت الفاتورة</string>
+    <string name="order_received">استلمت الطلب</string>
+    <string name="Order_received_msg"> إستلمت الطلب و حاليا انا في الطريق.</string>
+    <string name="Arrived_to_client">وصلت الى العميل</string>
+    <string name="Arrived_to_client_msg">مرحبا, لقد وصلت </string>
+    <string name="invoice_picture">صورة الفاتورة متواجدة في زر عرض الفاتورة </string>
+    <string name="total_fees">المبلغ الاجمالي : سعر خدمة التوصيل %1$s + مبلغ الفاتورة %2$s = %3$s %4$s</string>
+
+    <string-array name="reqTimes">
+        <item>١ ساعة</item>
+        <item>٢ ساعة</item>
+        <item>٤ ساعات</item>
+        <item>غير محدودة</item>
+    </string-array>
+
+    <string-array name="CancellationReasons">
+        <item>قام العميل بتغيير الطلب</item>
+        <item>العميل يريد إلغاء الطلب</item>
+    </string-array>
+
+    <string-array name="SupportMessagesType">
+        <item>شكوي</item>
+        <item>مقترح</item>
+    </string-array>
+    <string name="main_channel_description">قناة الاشعارات الرئيسية</string>
+    <string name="main_channel_name">قناة الاشعارات الرئيسية</string>
+    <string name="select_file">اختر الملف</string>
+    <string name="select_model">اختر النوع</string>
+    <string name="unknown_error">خطأ مجهول</string>
+    <string name="sign_in_cancelled">الغاء تسجيل الدخول</string>
+    <string name="loading">جاري التخميل …</string>
+    <string name="mark_joe">Mark Joe</string>
+    <string name="start_trip">بدأ التوصيلة</string>
+    <string name="end_trip">انهاء التوصيلة</string>
+    <string name="clientdd">العميل</string>
+    <string name="order_status_dd">حالة الطلب</string>
+    <string name="police_clearance_certificate">شهادة التأمين</string>
+    <string name="order_pending">الطلب معلق</string>
+    <string name="ride_later">التوصيل لاحقا</string>
+    <string name="ride_now">التوصيل الآن</string>
+    <string name="unknown_response">خطأ كجهول</string>
+    <string name="intro_page2_text">Find our drivers anytime and anywhere</string>
+    <string name="intro_page3_text">Choose your favorite class and request a ride now or later…</string>
+    <string name="intro_page4_text">Ready for your first ride, let\'s go…</string>
+    <string name="round_trip">توصيلة كاملة</string>
+    <string name="to">إلى</string>
+    <string name="date">تاريخ</string>
+    <string name="book_your_ride">حجز التوصيلة</string>
+    <string name="pick_time">اختر الوقت</string>
+    <string name="pick_date">اختر التاريخ</string>
+    <string name="subject">الموضوع</string>
+    <string name="starting_from">البداية من</string>
+    <string name="call_support_center_now">الاتصال بمركز الدعم الآن؟</string>
+    <string name="sending_email_to_support">ارسال ايميل لمركز الدعم؟</string>
+    <string name="internet_connected_wifi">Internet Connected (WiFi)</string>
+    <string name="internet_connected_mobile">Internet Connected (Mobile Data)</string>
+    <string name="action_add_favourite">المفضلة</string>
+    <string name="action_play_next">لعب الموالي</string>
+
+</resources>

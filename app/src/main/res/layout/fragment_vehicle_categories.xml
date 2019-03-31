@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <Switch
+        android:id="@+id/switchRoundTrip"
+        android:layout_margin="5dp"
+        android:layout_marginRight="5dp"
+        android:switchPadding="10dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/round_trip" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewVehicleCategories"
+        android:layout_width="match_parent"
+        android:padding="@dimen/md_margin_small"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonRideLater"
+            style="@style/md_button_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ride_later" />
+
+        <Button
+            android:id="@+id/buttonRideNow"
+            style="@style/md_button_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ride_now" />
+    </LinearLayout>
+
+
+</LinearLayout>

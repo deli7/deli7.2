@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/title"
+        android:gravity="center"
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/intro1"
+        android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="@dimen/text_size_xlarge"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            style="@style/text_view_title"/>
+
+        <ProgressBar
+            android:id="@+id/pbBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@layout/progress_background"
+            android:elevation="10dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_medium"
+        android:text="@string/intro_page1_text"
+         />
+
+
+
+
+
+    <include layout="@layout/book_your_ride_button" android:visibility="gone"/>
+</RelativeLayout>

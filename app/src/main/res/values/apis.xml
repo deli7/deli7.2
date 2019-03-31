@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="GEO_API_KEY" translatable="false">AIzaSyCPWJ4iIEZicy2X8dYvdLLEIM3VgYsUczA</string>
+    <string name="GOOGLE_DISTANCE_MATRIX_API_KEY" translatable="false">AIzaSyBxHVZvIBHvGTw24wfR-4WdnpD_YcvSN7s</string>
+
+</resources>

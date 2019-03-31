@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/default_card_view">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_weight=".2"
+        android:padding="@dimen/md_margin_small"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="@dimen/md_margin_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="#"/>
+        <TextView
+            android:id="@+id/textViewOrderNumber"
+            style="@style/md_caption"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:text="0000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight=".8"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        style="@style/default_card_view_linear_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/md_caption"
+            android:gravity="center_vertical"
+            android:text="@string/ui_label_pick_up_address"/>
+
+        <TextView
+            android:id="@+id/textViewPickUpAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            style="@style/md_body2_dark_grey_bold"
+            android:text="@string/ui_label_pick_up_address"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/md_caption"
+            android:text="@string/ui_label_destination_address"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/textViewDestinationAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/smallTextBlackBold"
+            android:text="@string/ui_label_destination_address"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/md_caption"
+            android:text="@string/ui_label_order_instructions"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/textViewOrderInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/smallTextBlackBold"
+            android:text="@string/ui_label_order_instructions"/>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/md_caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_label_estimated_time" />
+
+                <TextView
+                    android:id="@+id/textViewEstimatedTime"
+                    style="@style/smallTextBlackBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/md_caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/required_time" />
+
+                <TextView
+                    android:id="@+id/textViewRequiredTime"
+                    style="@style/smallTextBlackBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/md_caption"
+                    android:text="@string/ui_label_order_status"/>
+
+                <TextView
+                    android:id="@+id/textViewOrderStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/smallText"
+                    android:text="@string/ui_label_order_status"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/md_caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_label_estimated_distance" />
+
+                <TextView
+                    android:id="@+id/textViewEstimatedDistance"
+                    style="@style/smallTextBlackBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:id="@+id/linearLayoutDistanceToStore"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/md_caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_label_delivery_to_store_distance" />
+
+                <TextView
+                    android:id="@+id/textViewDeliveryToStoreDistance"
+                    style="@style/smallTextBlackBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/md_margin_small"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewMakeOffer"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                style="@style/md_link"
+                android:text="@string/ui_button_make_offer"/>
+
+
+            <TextView
+                android:id="@+id/textViewViewOrder"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/md_link"
+                android:text="@string/ui_button_view_order"/>
+
+
+            <TextView
+                android:id="@+id/textViewEditOrder"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/md_link"
+                android:text="@string/ui_button_edit_order"/>
+
+
+            <TextView
+                android:id="@+id/textViewCancelOrder"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/md_link"
+                android:text="@string/ui_button_cancel_order"/>
+
+
+
+            <TextView
+                android:id="@+id/textViewFinishOrder"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/md_link"
+                android:text="@string/ui_button_finish_order"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

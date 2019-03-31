@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar"
+        android:layout_margin="@dimen/md_margin_small"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_label_name"
+            android:textAllCaps="true" />
+
+        <EditText
+            android:id="@+id/editTextFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_label_email"
+            android:textAllCaps="true" />
+
+        <EditText
+            android:id="@+id/editTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayourRiderOrDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="@dimen/profile_image_width"
+                    android:layout_height="@dimen/profile_image_height"
+
+                    android:contentDescription="@string/todo"
+                    android:src="@mipmap/ic_user_marker" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/client"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_large" />
+
+
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/switchRiderOrDriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="@dimen/profile_image_width"
+                    android:layout_height="@dimen/profile_image_height"
+                    android:contentDescription="@string/todo"
+                    android:src="@mipmap/ic_driver_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/ui_label_delivery_man"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_large" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayourRiderOrDriver"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/imageViewDriverPhoto"
+                android:layout_width="@dimen/screenbox_image_width"
+                android:layout_height="@dimen/screenbox_image_width"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:contentDescription="TODO"
+                android:src="@mipmap/ic_user"
+                />
+            <!--<com.makeramen.roundedimageview.RoundedImageView-->
+            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--android:userName="@+userName/imageViewDriverPhoto"-->
+            <!--android:src="@mipmap/ic_user"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--app:riv_corner_radius="30dip"-->
+            <!--app:riv_border_width="2dip"-->
+            <!--app:riv_border_color="#eee"-->
+            <!--app:riv_mutate_background="true"-->
+            <!--app:riv_tile_mode="clamp"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--app:riv_oval="true" />-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutTakePhoto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin_2x"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonTakePhoto"
+                        android:layout_width="@dimen/icon_width"
+                        android:layout_height="@dimen/icon_width"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@null"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/camera" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/ui_label_camera"
+                        android:textSize="@dimen/text_size_large" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutGallery"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin_2x"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonBrowseForImage"
+                        android:layout_width="@dimen/icon_width"
+                        android:layout_height="@dimen/icon_width"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@null"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/gallery" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/ui_label_gellery"
+                        android:textSize="@dimen/text_size_large" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ui_label_phone_number"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/editTextPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:padding="10dp"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_medium"
+                android:visibility="gone" />
+
+
+            <!--android.support.design.widget.TextInputLayout
+                android:userName="@+userName/textInputLayoutPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:userName="@+userName/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/string_password"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:userName="@+userName/textInputLayoutRepeatPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:userName="@+userName/editTextRepeatPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/string_repeat_password"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout-->
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="@string/ui_button_terms_and_conditions"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonReceiver"
+            style="@style/md_button_grey"
+            android:layout_margin="@dimen/md_margin_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_button_iam_receiver" />
+
+        <Button
+            android:id="@+id/buttonDeliveryMan"
+            style="@style/md_button_grey"
+            android:layout_margin="@dimen/md_margin_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_button_iam_deliveryman"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/md_margin_small"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/buttonNext"
+            style="@style/md_button_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_button_next" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

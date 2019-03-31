@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.common.Messaging.AskSupportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_type" />
+
+            <Spinner
+                android:layout_margin="5dp"
+                android:id="@+id/spinnerSupportMessagesType"
+                android:spinnerMode="dialog"
+                android:entries="@array/SupportMessagesType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include layout="@layout/divider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ui_label_order_number" />
+
+            <Spinner
+                android:layout_margin="5dp"
+                android:id="@+id/spinnerUserOrders"
+                android:spinnerMode="dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <include layout="@layout/divider" />
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:gravity="top"
+                    android:hint="@string/message"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonSubmitMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/md_button_black"
+                android:text="@string/ui_button_submit_message"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

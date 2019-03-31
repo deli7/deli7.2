@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:navigationIcon="?attr/homeAsUpIndicator"
+                app:title="@string/fui_verify_phone_number" />
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/appBar"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/md_margin_medium">
+
+            <ImageView
+                android:layout_width="@dimen/card_view_image_width"
+                android:layout_height="@dimen/card_view_image_width"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/md_margin_medium"
+                android:src="@drawable/confimcode" />
+
+            <TextView
+                android:id="@+id/header"
+                style="@style/FirebaseUI.Text.T08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/fui_enter_confirmation_code" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirmation_code_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.firebase.ui.auth.ui.phone.SpacedEditText
+                    android:id="@+id/confirmation_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/fui_transparent"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textSize="32sp"
+                    android:typeface="monospace"
+                    app:spacingProportion="1.1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <include
+                layout="@layout/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/md_margin_small" />
+
+
+            <TextView
+                android:id="@+id/ticker"
+                style="@style/FirebaseUI.Text.T08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/secondaryTextColor"
+                android:textIsSelectable="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="159dp"
+                tools:text="@string/fui_resend_code_in" />
+
+
+            <android.support.constraint.Barrier
+                android:id="@+id/resend_barrier"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="ticker,resend_code" />
+
+            <TextView
+            android:id="@+id/email_footer_tos_and_pp_text"
+            app:layout_constraintTop_toBottomOf="@+id/resend_barrier"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_confirmation_code"
+            style="@style/md_button_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@id/LL"
+            android:layout_gravity="end"
+
+            android:text="@string/fui_continue_phone_login" />
+
+        <LinearLayout
+            android:id="@+id/LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/md_margin_small">
+
+            <TextView
+                android:id="@+id/edit_phone_number"
+
+                style="@style/md_h6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/ui_label_change_number"
+                android:textAllCaps="true"
+                android:textSize="@dimen/md_text_size_body2"
+                app:layout_constraintTop_toBottomOf="@+id/header"
+                tools:ignore="SelectableText" />
+
+            <TextView
+                android:id="@+id/resend_code"
+
+                style="@style/md_h6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/fui_resend_code"
+                android:textAllCaps="true"
+                android:textSize="@dimen/md_text_size_body2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ticker"
+                tools:text="@string/fui_resend_code" />
+
+            <TextView
+                       android:id="@+id/create_account_tos"
+                        style="@style/FirebaseUI.Text.BodyText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/fui_field_padding_vert"
+                        android:textIsSelectable="false"
+                android:visibility="gone"
+                        app:layout_constraintTop_toBottomOf="@+id/tos_barrier"
+                        tools:text="@string/fui_create_account_preamble_tos_and_pp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

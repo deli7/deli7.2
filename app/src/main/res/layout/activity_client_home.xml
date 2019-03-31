@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.client.ClientHomeActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageViewLanguage"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_width"
+        android:layout_margin="@dimen/md_margin_medium" />
+
+    <ImageView
+        android:layout_width="@dimen/home_logo_width"
+        android:layout_height="@dimen/home_logo_height"
+        android:layout_gravity="center"
+        android:layout_margin="75dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo1" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/md_margin_small"
+        tools:listitem="@layout/album_card" />
+
+
+</LinearLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.delivame.delivame.deliveryman">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.MainApplication"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/MaterialTheme">
+
+        <activity
+            android:name=".activities.common.Auth.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+
+        <activity
+            android:name=".activities.common.Auth.SignUpActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".utilities.DateTimePicker" />
+
+        <activity android:name=".activities.BaseActivity" />
+
+        <activity
+            android:name=".activities.common.Auth.DriverVerificationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".activities.client.DeliveryManFeedbackActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+
+        <activity
+            android:name=".old_activities.SelectVehicleActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.IntroWizardActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Auth UI demo -->
+
+        <activity
+            android:name=".activities.client.MyPlacesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".old_activities.ViewMessageActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name=".utilities.GenericFileProvider"
+            android:authorities=".{applicationId}.my.package.name.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!--<meta-data-->
+        <!--android:name="io.fabric.ApiKey"-->
+        <!--android:value="143f1cf361979c25c92e97b3df4721a846765330" />-->
+
+        <activity
+            android:name=".activities.common.SupportActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.client.ClientHomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.client.SelectBusinessTypeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.client.SelectStoreActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.client.SelectBranchActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.client.AddNewOrderActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.deliveryman.DeliveryManHomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.deliveryman.OffersActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.common.Chat.ChatActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.common.Messaging.AskSupportActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.common.ProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.client.SelectDestinationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.client.AddNewMyPlaceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.common.CurrentOrdersActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.deliveryman.DeliveryManOffersActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.common.OrderActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.deliveryman.AddNewOfferActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- <service -->
+        <!-- android:name=".services.MyFirebaseMessagingService"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT"/> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+
+
+        <!-- <service -->
+        <!-- android:name=".services.FirebaseIDService"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+
+        <activity
+            android:name=".activities.common.Messaging.ListSupportMessagesActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.common.Messaging.ViewSupportMessageActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.deliveryman.AddNewOrderReceiptActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.common.FullScreenViewActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".GpsLocationReceiver">
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activities.common.EditUserProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+
+        <activity
+            android:name=".activities.common.WebContentActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SelectLanguageActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".activities.client.ClientBaseActivity" />
+        <activity android:name=".activities.deliveryman.DeliveryManBaseActivity" />
+        <activity android:name=".activities.deliveryman.AddCreditActivity" />
+        <activity android:name=".activities.deliveryman.WithdrawCreditActivity" />
+
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="${crashlyticsEnabled}" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/GEO_API_KEY" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:padding="5dp"
+    android:id="@+id/itemLayout"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        style="@style/smallText"
+        android:text=""
+        android:id="@+id/textViewVehicleWaitTime"/>
+
+    <ImageView
+        android:id="@+id/imageViewVehicleCategory"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:src="@drawable/vehicle"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        style="@style/smallText"
+        android:text=""
+        android:id="@+id/textViewVehicleCategory"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_size_xsmall"
+        android:text="@string/starting_from"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        style="@style/mediumTextBlack"
+        android:text=""
+        android:id="@+id/textViewVehicleCategoryFare"/>
+
+
+
+</LinearLayout>

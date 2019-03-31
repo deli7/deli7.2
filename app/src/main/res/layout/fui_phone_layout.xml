@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                app:title="@string/fui_verify_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:visibility="gone"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_below="@id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/md_margin_small"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/md_overline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/ui_label_mobile" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.firebase.ui.auth.ui.phone.CountryListSpinner
+                    android:layout_height="wrap_content"
+                    android:id="@+id/country_list"
+                    style="@style/FirebaseUI.CountrySpinner" />
+
+                <com.firebase.ui.auth.util.ui.BaselineTextInputLayout
+                    android:id="@+id/phone_layout"
+                    style="@style/FirebaseUI.TextInputLayout.PhoneField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/phone_number"
+                        style="@style/FirebaseUI.TextInputEditText.PhoneField"
+                        android:imeOptions="actionDone" />
+
+                </com.firebase.ui.auth.util.ui.BaselineTextInputLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/md_body1_dark_grey"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/md_margin_small"
+                android:layout_height="wrap_content"
+                android:text="@string/ui_label_please_enter_your_phone_number" />
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/send_sms_tos"
+            style="@style/FirebaseUI.Text.BodyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:textColor="?android:textColorTertiary"
+            android:textIsSelectable="false"
+            android:layout_above="@id/send_code"
+            />
+
+        <TextView
+            android:id="@+id/email_footer_tos_and_pp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/send_code"
+            style="@style/md_button_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/fui_verify_phone_number"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

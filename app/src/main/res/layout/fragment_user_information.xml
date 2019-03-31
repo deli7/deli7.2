@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="top"
+    android:background="@android:color/white"
+    android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageViewUser"
+            android:src="@mipmap/ic_user"
+            android:scaleType="fitCenter"
+            app:riv_corner_radius="30dip"
+            app:riv_border_width="2dip"
+            android:layout_gravity="top"
+            app:riv_border_color="#eee"
+            app:riv_mutate_background="true"
+            app:riv_tile_mode="clamp"
+            android:layout_margin="5dp"
+            android:layout_width="@dimen/profile_image_width"
+            android:layout_height="@dimen/profile_image_width"
+            app:riv_oval="true" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".8"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_medium"
+                android:id="@+id/textViewUserName"
+                android:text="@string/mark_joe"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_small"
+                android:id="@+id/textViewOrderNumber"
+                android:text="@string/order_pending"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_small"
+                android:id="@+id/textViewOrderStatus"
+                android:text="@string/ui_label_order_status"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <!--<ImageButton-->
+            <!--android:userName="@+userName/imageButtonCallUser"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:background="@color/fui_transparent"-->
+            <!--android:src="@mipmap/ic_call"/>-->
+
+
+
+
+    </LinearLayout>
+
+    <include layout="@layout/divider"
+        android:id="@+id/divider"
+        android:layout_below="@+id/L1"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        app:itemBackground="@color/primaryColor"
+        app:itemIconTint="@color/secondaryColor"
+        app:itemTextColor="@color/secondaryColor"
+        app:menu="@menu/user_information_fragment_menu" />
+</RelativeLayout>

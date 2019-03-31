@@ -1,0 +1,375 @@
+<resources>
+
+
+    <string name="app_name">DelivaMe</string>
+
+    <string name="ui_message_error_internet_not_connected">No Internet Connection</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="sign_in_cancelled">Sign In Cancelled</string>
+
+
+    <string name="ui_label_email_address">Email Address</string>
+    <string name="ui_label_password">Password</string>
+    <string name="ui_button_create_account">Create New Account</string>
+    <string name="ui_label_fullname">Fullname</string>
+    <string name="string_login">Login</string>
+    <string name="ui_label_dont_have_account">Don\'t have an account?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="loading">Loading…</string>
+    <string name="ui_label_select_user_type">Select User Type</string>
+    <string name="client">Client</string>
+    <string name="ui_label_client_name">Client Name</string>
+    <string name="ui_button_finish_order">Finish Order</string>
+
+    <string name="ui_button_cancel_request">Cancel Request</string>
+    <string name="mark_joe">Mark Joe</string>
+
+    <string name="ui_label_order_status">Order Status</string>
+
+    <string name="start_trip">Start Trip</string>
+    <string name="end_trip">End Trip</string>
+    <string name="clientdd">Client</string>
+
+    <string name="order_status_dd">Order Status</string>
+    <string name="km">Km</string>
+    <string name="distance_km">%1$.2f Km</string>
+    <string name="min">min</string>
+    <string name="distance_min">%1$.2f min</string>
+
+    <string name="ui_label_destination">Destination</string>
+    <string name="write_about_your_delivery_order">Write about your delivery order</string>
+    <string name="ui_button_submit_review">Submit Review</string>
+    <string name="ui_button_skip">Skip</string>
+    <string name="ui_label_driving_license">vehicle License</string>
+
+    <string name="police_clearance_certificate">Police Clearance Certificate</string>
+
+    <string name="ui_label_vehicle_permit">Vehicle Photo (include licence plate)</string>
+
+    <string name="ui_label_commercial_insurance">Personal Picture</string>
+    <string name="ui_label_fitness_certificate">ID Picture</string>
+    <string name="ui_button_select_file">Select file…</string>
+    <string name="ui_button_submit_information">Submit Information</string>
+    <string name="ui_button_login_with_another_account">Login with Another Account</string>
+    <string name="ui_label_vehicle_categories">Vehicle Categories</string>
+    <string name="base_fare">Base Fare</string>
+    <string name="fare_per_min">Fare Per Min</string>
+    <string name="fare_per_km">Fare Per Km</string>
+    <string name="ui_button_select_vehicle">Select Vehicle</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="ui_label_phone_number">PhoneNumber</string>
+    <string name="order_pending">Order #: Pending</string>
+    <string name="ui_label_order_number">Order Number</string>
+    <string name="ui_button_terms_and_conditions">Terms and Conditions</string>
+    <string name="ui_label_select_model">Select Model</string>
+    <string name="ride_later">Ride Later</string>
+    <string name="ride_now">Ride Now</string>
+    <string name="unknown_response">Unknown Error</string>
+    <string name="intro_page1_text">The easiest and quickest way to deliver goods in your city</string>
+    <string name="intro_page2_text">Find our drivers anytime and anywhere</string>
+    <string name="intro_page3_text">Choose your favorite class and request a ride now or later…</string>
+    <string name="intro_page4_text">Ready for your first ride, let\'s go…</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ui_label_no_orders_available">No Orders Available</string>
+    <string name="round_trip">Round Trip</string>
+
+    <string name="ui_button_save_location_to_my_places">Save Location to My Places</string>
+    <string name="ui_label_vehicle_number">Vehicle Number</string>
+    <string name="ui_label_vehicle_model">Vehicle Category</string>
+    <string name="to">TO</string>
+    <string name="date">Date</string>
+    <string name="book_your_ride">Book Your Ride</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="starting_from">Starting from</string>
+    <string name="ui_button_cancel_order">Cancel Order</string>
+    <string name="call_support_center_now">Call Support Center Now?</string>
+    <string name="sending_email_to_support">Send Email to Support?</string>
+    <string name="internet_connected_wifi">Internet Connected (WiFi)</string>
+    <string name="internet_connected_mobile">Internet Connected (Mobile Data)</string>
+    <string name="action_add_favourite">Favorite</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="subtitle_add_new_order">Add new delivery order</string>
+    <string name="ui_button_new_order">New Order</string>
+    <string name="ui_label_current_orders">Current Orders</string>
+    <string name="ui_label_view_current_orders">View current orders</string>
+    <string name="personal_profile">Personal Profile</string>
+    <string name="subtitle_view_update_personal_profile">View and update personal profile</string>
+    <string name="ui_label_support">Get Support</string>
+    <string name="subtitle_get_support">Ask question or send complain</string>
+    <string name="ui_button_create_user_account">Creating User Account</string>
+    <string name="error_user_type_unverified_driver">Unverified Driver, please proceed to documents verification</string>
+    <string name="error_user_type_pending_verification_driver">Your documents are currently being uploaded for review</string>
+    <string name="ui_message_error_user_type_driver_suspended">Your driver account is suspended</string>
+    <string name="ui_message_error_user_type_user_suspended">Your user account is suspended</string>
+    <string name="welcome_driver">Welcome driver</string>
+    <string name="error">Error</string>
+    <string name="ui_message_error_invalid_configuration">Invalid Configuration, Please contact administrator</string>
+    <string name="ui_activity_title_home_page">Home</string>
+    <string name="ui_activity_title_select_business">Select Business Category</string>
+    <string name="ui_activity_title_select_store">Select Store</string>
+    <string name="ui_label_add_new_order">Add New Order</string>
+    <string name="ui_label_pick_up_address">Pick Up Address</string>
+    <string name="ui_label_destination_address">Destination Address</string>
+    <string name="ui_label_estimated_distance">Est. Distance</string>
+    <string name="estimated_cost">Est. Cost</string>
+    <string name="ui_label_estimated_time">Est. Time</string>
+    <string name="ui_label_order_instructions">Order Instructions</string>
+    <string name="ui_message_new_order_added">New Order Added</string>
+    <string name="ui_message_error_adding_new_order">Error adding new order</string>
+    <string name="title_current_orders">Current Orders</string>
+    <string name="ui_dialog_are_you_sure_delete_order">Are you sure you want to delete this order?</string>
+    <string name="order_picked_up">Order Picked Up</string>
+    <string name="order_delivered">Order Delivered</string>
+    <string name="ui_label_delivery_man">Delivery Man</string>
+    <string name="ui_label_delivery_offer_date">Delivery Offer Date</string>
+    <string name="ui_label_delivery_offer_value">Delivery Offer Value</string>
+    <string name="ui_label_delivery_offer_comment">Comment</string>
+    <string name="ui_button_accept_offer">Accept Offer</string>
+    <string name="ui_dialog_are_you_sure_accept_offer">Are you sure you want to accept offer?</string>
+    <string name="ui_label_client_profile">Client Profile</string>
+    <string name="ui_button_update_information">Update Information</string>
+    <string name="message_type">Message Type</string>
+    <string name="ui_button_submit_message">Submit Message</string>
+
+    <string name="ui_message_error_missing_destination_point">Error: No destination point selected</string>
+
+    <string name="ui_button_select_destination">Select Destination</string>
+
+    <string name="my_places">My Places</string>
+    <string name="ui_button_delete_place">Delete Place</string>
+    <string name="ui_button_edit_place">Edit Place</string>
+    <string name="ui_button_select_place">Select Place</string>
+    <string name="ui_button_save_place">Save Place</string>
+
+    <string name="ui_button_add_order">Add Order</string>
+    <string name="what_are_you_looking_for">What are you looking for?</string>
+    <string name="ui_pick_from_map_or_search">Pick from map or Search</string>
+    <string name="ui_dialog_select_place_as_destination">Select place as destination?</string>
+    <string name="ui_label_list_of_offers">List of Offers</string>
+    <string name="ok">OK</string>
+    <string name="text_item">Message</string>
+    <string name="bt_sent">Sent</string>
+    <string name="first_message_header">Hi, Congratulations on winning the order, here is my instructions:</string>
+    <string name="ui_button_chat_with">Chat</string>
+    <string name="ui_button_call_delivery_man">Call</string>
+    <string name="chat_with_support">Chat with Support</string>
+    <string name="chatting_with">Chat with</string>
+    <string name="ui_button_make_offer">Make Offer</string>
+    <string name="ui_button_add_offer">Add Offer</string>
+    <string name="ui_dialog_are_you_sure_add_new_offer">Are you sure you want to place this offer?</string>
+    <string name="ui_message_new_offer_added">New offer added</string>
+    <string name="ui_dialog_title_error">Error</string>
+    <string name="ui_notification_you_won_order">You are the winner of order</string>
+    <string name="ui_notification_your_order_picked">Your order was Picked</string>
+    <string name="ui_button_edit_offer">Edit Offer</string>
+    <string name="ui_button_delete_offer">Delete Offer</string>
+    <string name="ui_button_view_order">View Offer</string>
+    <string name="ui_button_edit_order">Edit Order</string>
+    <string name="ui_label_no_offers_available">No Current Offers</string>
+    <string name="ui_label_no_places">No Places</string>
+    <string name="ui_dialog_aready_added_offer">You already added offer to this order.</string>
+    <string name="ui_dialog_order_already_awarded">Order already awarded, no more offers can be added</string>
+    <string name="ui_label_no_stores_available">No stores available</string>
+    <string name="ui_label_activity_title_order_details">Order Details</string>
+    <string name="no_comment">No Comment</string>
+    <string name="ui_label_you_have_in_progress_orders">You have in progress orders</string>
+    <string name="ui_button_chat_with_client">Chat with Client</string>
+    <string name="ui_notification_new_order_added">New Order Added</string>
+    <string name="ui_notification_you_added_new_order">You added new order #</string>
+    <string name="ui_notification_order_accepted">Order Accepted</string>
+    <string name="order_accepted">قيد التنفيذ</string>
+    <string name="ui_notification_you_accepted_offer">You accepted offer</string>
+    <string name="ui_notification_your_order_delivered">Ordered Delivered</string>
+    <string name="ui_dialog_you_already_have_other_order">You already have 2 orders in progress, No more orders can be added</string>
+    <string name="ui_button_pickup_order">Pick Up Order</string>
+    <string name="ui_button_deliver_order">Deliver Order</string>
+    <string name="ui_dialog_are_you_sure_pick_up_order">Are you sure you want to Pick Up the order?</string>
+    <string name="ui_dialog_are_you_sure_deliver_order">Are you sure you want to deliver the order?</string>
+    <string name="ui_button_navigate_to_pickup">Navigate to Pickup Point</string>
+    <string name="ui_button_navigate_to_destinatiom">Navigate To Destination</string>
+    <string name="ui_dialog_are_you_sure_navigate_to_pickup">This will open Google Navigate to lead you to Pickup Point, OK?</string>
+    <string name="ui_dialog_are_you_sure_navigate_to_destination">This will open Google Navigate to guide you to Destination, OK?</string>
+    <string name="ui_label_new_orders">New Orders</string>
+    <string name="ui_label_view_my_current_orders">List my delivery orders</string>
+    <string name="ui_message_error_google_maps_not_installed">Google Maps not installed</string>
+    <string name="ui_activity_title_order_feedback">Order Feedback</string>
+    <string name="ui_message_new_offer_updated">Offer Updated</string>
+    <string name="ui_message_new_order_updated">Order Updated</string>
+    <string name="ui_dialog_insufficient_credit">Insufficient Credit</string>
+    <string name="ui_message_credit_added">Credit added to account</string>
+    <string name="points">points</string>
+    <string name="ui_label_current_credit">Current Credit</string>
+    <string name="ui_label_add_new_offer">Add New Offer</string>
+    <string name="driver_verification">Driver Verification</string>
+    <string name="logout">Logout</string>
+    <string name="ui_dialog_are_you_sure_exit">Are you sure you want to exit?</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ui_label_previous_orders">Previous Orders</string>
+    <string name="ui_label_in_progress_orders">In Progress Orders</string>
+    <string name="order_completed">Order Completed</string>
+    <string name="ui_button_use_current_location">Use Current Location</string>
+    <string name="ui_message_error_no_internet_connectivity">No Internet Connectivity</string>
+    <string name="ui_message_error_internet_connectivity_back">Internet is now connected</string>
+    <string name="required_time">Required Time</string>
+    <string name="ui_message_error_insufficient_expected_time">Required Time is not sufficient for the delivery order</string>
+    <string name="hour">Hour</string>
+    <string name="time_hour">%1$d Hour</string>
+    <string name="ui_string_you_have">You have</string>
+    <string name="ui_string_delivered_orders_awating_feedback">Delivered orders awaiting feedback</string>
+    <string name="ui_dialog_title_orders_status">Orders Status</string>
+    <string name="ui_activity_title_send_message_to_support">Contact Support</string>
+    <string name="ui_dialog_confirm_send_support_message">Confirm sending message to support?</string>
+    <string name="ui_label_no_support_messages_available">No Messages Available</string>
+    <string name="ui_activity_title_support_messages">Messages</string>
+    <string name="ui_notification_message_sent_to_support">Message has been sent to support</string>
+    <string name="ui_activity_title_message_details">Message Details</string>
+    <string name="ui_notification_order_completed">Order Completed</string>
+    <string name="ui_notification_order_cancelled">Order Cancelled</string>
+    <string name="ui_label_delivery_to_store_distance">Distance to Store</string>
+    <string name="ui_label_min_cost">Min. Cost</string>
+    <string name="ui_button_save_bill">Save Bill</string>
+    <string name="ui_label_add_order_receipt">Add Order Receipt</string>
+    <string name="ui_label_bill_value">Bill Value</string>
+    <string name="ui_message_error_offer_outside_range">Offer is outside acceptable range</string>
+    <string name="min_range">Min. Range</string>
+    <string name="max_range">Max. Range</string>
+    <string name="ui_message_error_location_detection">Location Error</string>
+    <string name="ui_label_order_receipt_cost">Receipt Cost</string>
+    <string name="ui_button_view_receipt">View Receipt</string>
+    <string name="ui_label_order_delivery_cost">Delivery Cost</string>
+    <string name="ui_notification_new_offer_added">New offer added</string>
+    <string name="ui_label_receive_new_orders_notifications">Receive New Orders Notifications</string>
+    <string name="ui_label_edit_order">Edit Order</string>
+    <string name="ui_message_error_no_bill_loaded">Error: No Bill Loaded</string>
+    <string name="ui_message_error_invalid_bill_value">Error: Invalid Bill Value</string>
+    <string name="ui_label_clients_feedback">Client Feedback</string>
+
+    <!--item name=""><div>Icons made by <a href="https://www.flaticon.com/authors/pongsakornred" title="pongsakornRed">pongsakornRed</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div></item-->
+    <string-array name="reqTimes">
+        <item>1 Hour</item>
+        <item>2 Hours</item>
+        <item>4 Hours</item>
+        <item>Unlimited</item>
+    </string-array>
+
+    <string-array name="SupportMessagesType">
+        <item>Complain</item>
+        <item>Suggestion</item>
+    </string-array>
+
+    <string-array name="CancellationReasons">
+        <item>Client changed the order</item>
+        <item>Client wants to cancel the order</item>
+    </string-array>
+
+    <string name="ui_label_number_of_trips">Number of Trips</string>
+    <string name="ui_label_total_earnings">Total Earnings</string>
+    <string name="ui_button_logout">Logout</string>
+    <string name="ui_label_user_settings">User Settings</string>
+    <string name="ui_button_save_user_information">Save User Information</string>
+    <string name="ui_label_edit_photo">Edit Photo</string>
+    <string name="ui_label_user_name">Username</string>
+    <string name="ui_button_deposit_credit">Deposit Credit</string>
+    <string name="ui_button_withdraw_credit">Withdraw Credit</string>
+    <string name="ui_activity_title_edit_user_information">Edit User Information</string>
+    <string name="ui_button_policy">Privacy Policy</string>
+    <string name="ui_button_rate_app">Rate Application</string>
+    <string name="ui_button_ask_support">Ask Support</string>
+    <string name="ui_terms_of_use">Terms of Use</string>
+    <string name="ui_label_order_total_cost">Total Cost</string>
+    <string name="ui_label_select_notification_ringtone">Select Notification Ringtone</string>
+    <string name="ui_button_select">Select</string>
+    <string name="ui_message_error_invalid_offer_value">Invalid Offer Value</string>
+    <string name="ui_label_you_dont_have_orders">No Ongoing Orders</string>
+    <string name="ui_message_error_invalid_delivery_instructions">Invalid Delivery Instructions</string>
+    <string name="new_order_from">New order from</string>
+    <string name="ui_label_distance_to_client">Distance to Client</string>
+    <string name="ui_label_name">Name</string>
+    <string name="ui_label_email">Email</string>
+    <string name="ui_button_next">Next</string>
+    <string name="ui_label_camera">Camera</string>
+    <string name="ui_label_gellery">Gallery</string>
+    <string name="ui_button_iam_receiver">I Am Receiver</string>
+    <string name="ui_button_iam_deliveryman">I Am Delivery Man</string>
+    <string name="ui_activity_title_register">Register</string>
+    <string name="ui_message_error_invalid_email_address">Error: Invalid Email Address</string>
+    <string name="ui_message_error_invalid_user_name">Error: Invalid Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_select_language" translatable="false">Please select your language</string>
+    <string name="ui_message_error_user_type_not_selected">Error: User type not selected</string>
+    <string name="ui_message_error_account_no_longer_valid">Your account is no longer valid, please contact system administrator</string>
+    <string name="ui_notification_another_offer_accepted">Another Offer Accepted</string>
+    <string name="ui_label_another_offer_is_active">You have another active offer</string>
+    <string name="ui_activity_title_select_vehicle">Select Vehicle</string>
+    <string name="ui_dialog_are_you_sure_submit_documents">Are you sure you want to submit your documents?</string>
+    <string name="ui_notifcation_order_has_no_activity">Order has been cancelled due to inactivity</string>
+    <string name="ui_notification_your_offer_is_expired">Your offer has expired</string>
+    <string name="ui_notification_order_not_delivered">Order not delivered yet</string>
+    <string name="ui_label_promo_code">Promo Code</string>
+    <string name="ui_notifications_invalid_promo_code">Invalid Promo Code</string>
+    <string name="ui_label_after_discount">After Discount</string>
+    <string name="ui_label_mobile_number">Mobile Number</string>
+    <string name="ui_label_mobile">Mobile</string>
+    <string name="ui_label_please_enter_your_phone_number">Please enter your phone number</string>
+    <string name="ui_label_change_number">Change Numbler</string>
+    <string name="call">Call</string>
+    <string name="bt_send">Send</string>
+    <string name="ui_label_credit">Credit</string>
+    <string name="ui_label_add_credit_instructions">Add Credit Instructions</string>
+    <string name="ui_label_withdraw_instructions">Withdraw Instructions</string>
+    <string name="ui_button_submit_request">Submit Request</string>
+    <string name="ui_activity_title_add_credit">Add Credit</string>
+    <string name="ui_activity_title_withdraw_credit">Withdraw Credit</string>
+    <string name="ui_dialog_are_you_sure_add_credit_request">Are you sure you want to place request for adding credit?</string>
+    <string name="ui_dialog_are_you_sure_withdraw_credit_request">Are you sure you want to place Withdraw credit request?</string>
+    <string name="ui_notification_withdraw_credit_request_added">Withdraw Credit Request Added</string>
+    <string name="ui_notification_add_credit_request_added">Add Credit Request Added</string>
+    <string name="ui_label_you_want_to_add_promo_code">You want to add Promo Code?</string>
+    <string name="ui_notification_your_offer_accepted">Your Offer Accepted</string>
+    <string name="ui_notification_you_picked_up_the_order">You picked up the order</string>
+    <string name="ui_notification_you_delivered_order">You delivered order</string>
+    <string name="delivery_type">Delivery Type</string>
+    <string name="price">Price</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+    <string name="bicy_desc">Affordable For Nearby Tiny Small Things</string>
+    <string name="scooter_desc">Fast Delivering For Small Packages</string>
+    <string name="car_desc">Far Away, Valuable Big Orders</string>
+    <string name="search_for_all_stores">Search For All Stores</string>
+
+    <!--<string name="start_trip_auto">Hello valued client i am on my way to the restaurant. Please call %1$s to prepare order ready until I arrive there to save time.</string>-->
+    <!--<string name="start_trip_auto_no_number">Hello valued client i am on my way to the restaurant. Please call shop to prepare order ready until I arrive there to save time.</string>-->
+
+    <string name="start_trip_restaurant">hello valued client i am on my way to the restaurant , please call %1$s to make your order ready until i arrive there to save time ;) .\n
+Delivaman %2$s.</string>
+
+    <string name="start_trip_restaurant_no_phone">hello valued client , i am on my way to the restaurant , i appreciate your waiting .\n
+Delivaman %1$s.</string>
+
+    <string name="start_trip_other">hello valued client , i am on my way to the pickup destination , i appreciate your waiting .\n
+Delivaman %1$s.</string>
+
+    <string name="invoice_received">I arrived there and I got your invoice paid, here is the invoice details.\n Invoice Amount : %1$s %2$s \n Invoice Picture is below. </string>
+    <string name="Invoice_received">Invoice received</string>
+    <string name="order_received">Order received</string>
+    <string name="Order_received_msg">Here we go, I got the order and I am on my way to your destination.</string>
+    <string name="Arrived_to_client">Arrived to client</string>
+    <string name="Arrived_to_client_msg">Knock knock , I am here!</string>
+    <string name="invoice_picture">Invoice Picture is in view Receipt button</string>
+    <string name="total_fees">The total tender is : delivery fees %1$s + Invoice Amount : %2$s = %3$s %4$s </string>
+
+    <string name="select_model">Select model…</string>
+    <string name="select_file">Select file…</string>
+    <string name="new_offer_added">Offer added</string>
+
+    <string name="main_channel_name">Main Notification Channel</string>
+    <string name="main_channel_description">Main Notification Channel</string>
+
+
+</resources>

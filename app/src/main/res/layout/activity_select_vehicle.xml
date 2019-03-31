@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_label_vehicle_categories"
+            style="@style/md_caption"
+            />
+
+    <Spinner
+        android:id="@+id/spinnerVechicleCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:padding="20dp"
+        />
+        <include layout="@layout/divider" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/md_caption"
+        android:text="@string/ui_button_select_vehicle"
+        android:layout_marginTop="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerVehicles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:padding="20dp"
+         />
+        <include layout="@layout/divider" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/md_h6_dark_grey_bold"
+        android:text="@string/base_fare"
+        />
+
+    <TextView
+        android:id="@+id/textViewBaseFare"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/md_h6_dark_grey_bold"
+        android:text=""
+             />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/md_h6_dark_grey_bold"
+                android:text="@string/fare_per_km"
+                />
+
+            <TextView
+                android:id="@+id/textViewFarePerKm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/md_h6_dark_grey_bold"
+                android:text=""
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/md_h6_dark_grey_bold"
+                android:text="@string/fare_per_min"
+                />
+
+            <TextView
+                android:id="@+id/textViewFarePerMin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/md_h6_dark_grey_bold"
+                android:text=""
+                />
+        </LinearLayout>
+
+        <include layout="@layout/divider" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSelect"
+        style="@style/md_button_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/ui_button_select_vehicle"
+        />
+</RelativeLayout>

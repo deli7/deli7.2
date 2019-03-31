@@ -1,0 +1,60 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/md_margin_medium">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="@dimen/screenbox_image_width"
+            android:layout_height="@dimen/screenbox_image_width"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/neworder" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/md_h6_dark_grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/album_card_title_padding"
+            android:paddingTop="@dimen/album_card_title_padding"
+            android:paddingRight="@dimen/album_card_title_padding"
+            android:text="Title" />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/album_card_title_padding"
+            android:paddingRight="@dimen/album_card_title_padding"
+            android:paddingBottom="@dimen/songs_count_padding_bottom"
+            android:text="Subtitle"
+            android:textSize="@dimen/album_subtitle"
+            android:visibility="gone" />
+
+        <!--<ImageView-->
+        <!--android:userName="@+userName/overflow"-->
+        <!--android:layout_width="@dimen/ic_album_overflow_width"-->
+        <!--android:layout_height="@dimen/ic_album_overflow_height"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_below="@userName/thumbnail"-->
+        <!--android:layout_marginTop="@dimen/ic_album_overflow_margin_top"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/ic_dots" />-->
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

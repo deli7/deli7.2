@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--ImageView
+            android:layout_width="@dimen/logo_width_small"
+            android:layout_height="@dimen/logo_height_small"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/ic_car"
+            android:userName="@+userName/imageViewLogo" /-->
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayourRiderOrDriver"
+            android:layout_margin="10dp"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/screenbox_image_width"
+                    android:layout_height="@dimen/screenbox_image_width"
+                    android:layout_margin="8dp"
+                    android:id="@+id/imageViewDriverPhoto"
+                    android:src="@mipmap/ic_user"
+                    android:contentDescription="TODO" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textViewUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ui_label_user_name"
+                        android:gravity="start"
+                        style="@style/md_h6_dark_grey_bold"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/textViewPhoneNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ui_label_phone_number"
+                        android:gravity="start"
+                        style="@style/md_caption"
+                        />
+
+                    <TextView
+                        android:id="@+id/textViewEmailAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ui_label_email_address"
+                        android:gravity="start"
+                        style="@style/md_caption"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--<com.makeramen.roundedimageview.RoundedImageView-->
+            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--android:userName="@+userName/imageViewDriverPhoto"-->
+            <!--android:src="@mipmap/ic_user"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--app:riv_corner_radius="30dip"-->
+            <!--app:riv_border_width="2dip"-->
+            <!--app:riv_border_color="#eee"-->
+            <!--app:riv_mutate_background="true"-->
+            <!--app:riv_tile_mode="clamp"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--app:riv_oval="true" />-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:contentDescription="@string/todo"
+                   android:id="@+id/buttonTakePhoto"
+                    android:src="@mipmap/ic_camera" />
+
+            </LinearLayout>
+
+            <include layout="@layout/divider" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <LinearLayout
+                    android:id="@+id/linearLayoutCredit"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        style="@style/md_overline_grey"
+                        android:text="@string/ui_label_current_credit"/>
+
+                    <TextView
+                        android:id="@+id/textViewCredit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        style="@style/md_h6_dark_grey_bold"
+                        android:text="@string/ui_label_current_credit"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        style="@style/md_overline_grey"
+                        android:text="@string/ui_label_number_of_trips"/>
+
+                    <TextView
+                        android:id="@+id/textViewNumberOfTrips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        style="@style/md_h6_dark_grey_bold"
+                        android:text="@string/ui_label_number_of_trips"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/linearLayoutTotalEarnings"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        style="@style/md_overline_grey"
+                        android:text="@string/ui_label_total_earnings"/>
+
+                    <TextView
+                        android:id="@+id/textViewTotalEarnings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        style="@style/md_h6_dark_grey_bold"
+                        android:text="@string/ui_label_total_earnings"/>
+
+                </LinearLayout>
+                
+                
+                
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayoutRank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewRating"
+                    android:textColor="@color/duskYellow"
+                    android:layout_gravity="center_vertical"
+                    style="@style/md_h5"
+                    android:layout_margin="@dimen/md_margin_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RatingBar
+                    android:layout_marginTop="@dimen/md_margin_medium"
+                    android:id="@+id/ratingBar"
+                    android:theme="@style/RatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonUpdateInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/md_button_black"
+                android:text="@string/ui_button_update_information" />
+
+
+            <Button
+                android:id="@+id/buttonDepositCredit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/md_button_black"
+                android:text="@string/ui_button_deposit_credit" />
+
+            <Button
+                android:id="@+id/buttonWithdrawCredit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/md_button_black"
+                android:text="@string/ui_button_withdraw_credit" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

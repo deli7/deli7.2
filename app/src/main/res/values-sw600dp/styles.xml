@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="md_text_size_button">14sp</dimen>
+    <dimen name="md_text_size_h1">96</dimen>
+    <dimen name="md_text_size_h2">60</dimen>
+    <dimen name="md_text_size_h3">48sp</dimen>
+</resources>

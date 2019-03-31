@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/language2"
+    android:orientation="vertical"
+    tools:context=".activities.SelectLanguageActivity">
+
+    <ImageView
+
+        android:layout_margin="@dimen/md_margin_large"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logowhite"/>
+
+
+    <TextView
+        android:layout_marginTop="@dimen/md_margin_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/md_h5_white_bold"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/please_select_language"/>
+
+    <Button
+        android:id="@+id/buttonArabic"
+        android:layout_marginTop="@dimen/md_margin_large"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/arabic"/>
+
+    <Button
+        android:id="@+id/buttonEnglish"
+        android:layout_marginTop="@dimen/md_margin_small"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/english"/>
+
+</LinearLayout>

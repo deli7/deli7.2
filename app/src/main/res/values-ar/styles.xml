@@ -1,0 +1,405 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ParentMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="colorControlNormal">@color/lightGreyColor</item>
+        <item name="colorControlActivated">@color/darkGreyColor</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#546E7A</item>
+        <item name="android:textColorPrimary">#37474F</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+
+    <style name="MaterialTheme" parent="ParentMaterialTheme">
+
+
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark">
+
+        <item name="android:textColorPrimary">@color/primaryColor</item>
+        <item name="android:textColorSecondary">@color/primaryColor</item>
+    </style>
+
+
+    <style name="PopupMenuTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:actionOverflowButtonStyle">@style/overflow</item>
+
+
+    </style>
+
+    <style name="overflow">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="text_view_title">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/darkGreyColor</item>
+
+
+    </style>
+
+    <style name="text_view_left_title">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/darkGreyColor</item>
+    </style>
+
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:background">@color/primaryColor</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabPaddingStart">6dp</item>
+        <item name="tabPaddingEnd">6dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+
+    </style>
+
+
+    <!-- for text -->
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+
+    <style name="smallText">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+
+    </style>
+
+    <style name="smallTextLabel">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/grey1</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+
+    </style>
+
+    <style name="mediumTextBlack">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+
+    </style>
+
+    <style name="mediumTextBlackBold">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+
+    </style>
+
+    <style name="smallTextBlackBold">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+
+    </style>
+
+    <style name="mediumTextAccent">
+        <item name="android:textColor">@color/secondaryDarkColor</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+
+
+
+    <style name="largeText">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+
+    </style>
+
+
+    <style name="ToolbarTextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowColor">?colorAccent</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+
+    </style>
+
+    <style name="ToolbarTextAppearance.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ToolbarTextAppearance.Subtitle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="MyToolbar">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:background">?colorPrimary</item>
+
+    </style>
+
+    <style name="card_view_title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+
+
+    </style>
+    <style name="card_view_title_status">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+
+    </style>
+
+    <style name="card_view_subtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/grey1</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+
+    </style>
+
+    <style name="RatingBar" parent="android:style/Widget.Material.RatingBar.Small">
+        <item name="colorControlActivated">@color/duskYellow</item>
+        <item name="colorControlNormal">@color/secondaryDarkColor</item>
+    </style>
+
+
+
+    <style name="default_card_view_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+
+    </style>
+
+
+    <style name="md_button_black" parent="md_button">
+        <item name="android:background">@drawable/dark_grey_color</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_margin">@dimen/md_margin_small</item>
+
+    </style>
+
+    <style name="md_button_grey" parent="md_button">
+        <item name="android:background">@drawable/light_grey_color</item>
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:layout_margin">@dimen/md_margin_small</item>
+
+    </style>
+
+
+    <!-- Text -->
+    <style name="md_h1">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_h1</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">-1.5sp</item>
+
+    </style>
+
+    <style name="md_h2">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_h2</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">-0.5sp</item>
+    </style>
+
+    <style name="md_h3">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_h3</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">0sp</item>
+    </style>
+
+    <style name="md_h4">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_h4</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">0.25sp</item>
+    </style>
+
+    <style name="md_h5">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_h5</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">0sp</item>
+    </style>
+
+    <style name="md_h6">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_h6</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">0.15sp</item>
+    </style>
+
+    <style name="md_subtitle1">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_subtitle1</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">0.15sp</item>
+    </style>
+
+    <style name="md_link" parent="md_body2">
+        <item name="android:background">@drawable/link</item>
+        <item name="android:padding">@dimen/md_margin_small</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+
+    <style name="md_subtitle2">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_subtitle2</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">0.1sp</item>
+    </style>
+
+    <style name="md_body1">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_body1</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">0.5sp</item>
+    </style>
+
+    <style name="md_body2">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_body2</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">0.25sp</item>
+    </style>
+
+    <style name="md_button">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_button</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:spacing">.75sp</item>
+
+    </style>
+
+    <style name="md_caption">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_caption</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:spacing">0.4sp</item>
+    </style>
+
+    <style name="md_overline">
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:textSize">@dimen/md_text_size_overline</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:spacing">1.5sp</item>
+    </style>
+
+    <style name="md_overline_grey" parent="md_overline">
+        <item name="android:textColor">@color/lightGreyColor</item>
+    </style>
+
+    <style name="md_body1_dark_grey" parent="md_body1">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+
+    <style name="md_body2_dark_grey" parent="md_body2">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+
+    <style name="md_body2_dark_grey_bold" parent="md_body2">
+        <item name="android:textColor">@color/darkGreyColor</item>
+
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+
+    </style>
+
+    <style name="md_h5_dark_grey_bold" parent="md_h5">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+
+    <style name="md_h6_dark_grey_bold" parent="md_h6">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+
+    </style>
+
+    <style name="md_h6_dark_grey" parent="md_h6">
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+
+    <style name="default_card_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/md_card_view_left_margin</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="md_h5_white_bold" parent="md_h5">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+
+    </style>
+
+
+
+    <dimen name="md_card_view_left_margin">16dp</dimen>
+
+
+
+
+    <style name="LoginTheme" parent="FirebaseUI">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/darkGreyColor</item>
+        <item name="colorButtonNormal">@color/darkGreyColor</item>
+        <item name="colorControlNormal">@color/darkGreyColor</item>
+        <item name="colorControlActivated">@color/darkGreyColor</item>
+        <item name="colorControlHighlight">@color/darkGreyColor</item>
+        <item name="android:textColor">@color/darkGreyColor</item>
+        <item name="android:textColorPrimary">@color/darkGreyColor</item>
+        <item name="android:textColorSecondary">@color/lightGreyColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorHint">@color/lightGreyColor</item>
+    </style>
+
+    <style name="FirebaseUI.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/darkGreyColor</item>
+    </style>
+
+    <style name="FirebaseUI.Text.Link">
+        <item name="android:textColor">@color/darkGreyColor</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/background_spinner</item>
+    </style>
+
+
+</resources>

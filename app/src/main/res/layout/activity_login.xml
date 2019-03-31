@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.common.Auth.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="@dimen/logo_image_width"
+            android:layout_height="@dimen/logo_image_height"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_splash_logo"
+
+            android:id="@+id/imageViewLogo"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_below="@id/imageViewLogo"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/text_size_large"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:visibility="invisible"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewLogo"
+            android:layout_margin="40dp"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editTextEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ui_label_email_address"
+                android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editTextPassword"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ui_label_password"
+                android:inputType="textPassword" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                style="@style/md_button_black"
+                android:text="@string/string_login" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_label_dont_have_account"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp" />
+
+                <TextView
+                    android:id="@+id/textViewCreateAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_button_create_account"
+                    android:textColor="@color/colorAccent" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

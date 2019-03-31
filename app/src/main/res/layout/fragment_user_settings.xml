@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/md_margin_small"
+
+    tools:context=".fragments.UserSettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSwitchNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switchNotifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/ui_label_receive_new_orders_notifications" />
+
+
+            <include layout="@layout/divider" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/switchNotifications"
+            android:layout_marginTop="@dimen/md_margin_medium"
+            android:layout_gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/textViewRingtone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/buttonSelect"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/buttonSelect"
+                android:padding="@dimen/md_margin_small"
+                android:text="@string/ui_label_select_notification_ringtone"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/buttonSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/ui_button_select" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/divider" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        style="@style/md_button_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/ui_button_logout" />
+
+</RelativeLayout>

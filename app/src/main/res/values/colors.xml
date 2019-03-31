@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="divider">#BDBDBD</color>
+    <color name="grey1">#adadad</color>
+    <color name="album_title">#000</color>
+    <color name="duskYellow">#ab074f</color>
+
+    <color name="link_color">#2979FF</color>
+    <color name="window_background">#e9eced</color>
+
+    <color name="primaryColor">#ab074f</color>
+    <color name="primaryDarkColor">#Ab074f</color>
+    <color name="secondaryColor">#adadad</color>
+    <color name="secondaryDarkColor">#adadad</color>
+    <color name="primaryTextColor">#363f45</color>
+    <color name="secondaryTextColor">#adadad</color>
+    <color name="lightGreyColor">#adadad</color>
+    <color name="lightGreyColor2">#E6e6e6</color>
+    <color name="darkGreyColor">#363f45</color>
+
+    <color name="color_text_info">#d5d1ac</color>
+
+</resources>
